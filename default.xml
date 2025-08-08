@@ -27,5 +27,5 @@
 	<project name="meta-clang.git" path="src/meta-clang" remote="collabora" revision="c882fc2c82c9fb42c1533dfc27b17029e75f05ab" />
 	<project name="meta-lts-mixins.git" path="src/meta-lts-mixins" remote="yocto" revision="199dd7704cfb32db445e09f745932afbe51e1763" />
 	<project name="meta-browser.git" path="src/meta-browser" remote="collabora" revision="f3a16f9482bd8d2876e6a4bc5b0d06af4bb2287a" />
-  <project name="meta-asix.git" path="src/meta-asix" remote="github" />
+	<project name="meta-asix.git" path="src/meta-asix" remote="github" />
 </manifest>
