@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="rity" fetch="https://gitlab.com/mediatek/aiot/rity" />
+	<remote name="yocto" fetch="https://git.yoctoproject.org" />
+	<remote name="oe" fetch="https://git.openembedded.org" />
+	<remote name="github" fetch="https://github.com/" />
+	<remote name="collabora" fetch="https://gitlab.collabora.com/mediatek/aiot/rity" />
+
+	<default revision="kirkstone" />
+
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" />
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp"
+				remote="rity" />
+	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" />
+	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="main" />
+	<project name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid" remote="rity" />
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" />
+	<project name="meta-stress-test.git" path="src/meta-stress-test" remote="rity" />
+	<project name="poky.git" path="src/poky" remote="yocto" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" />
+	<project name="meta-openembedded" path="src/meta-openembedded"
+				remote="oe" />
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" revision="f5f218c1ac055ef449ce779392ef426936d1bd2b">
+		<annotation name="KEEP_REVISION" value="1" />
+	</project>
+	<project name="meta-security" path="src/meta-security" remote="yocto" />
+	<project name="meta-clang.git" path="src/meta-clang" remote="collabora" revision="c882fc2c82c9fb42c1533dfc27b17029e75f05ab" />
+	<project name="meta-lts-mixins.git" path="src/meta-lts-mixins" remote="yocto" revision="199dd7704cfb32db445e09f745932afbe51e1763" />
+	<project name="meta-browser.git" path="src/meta-browser" remote="collabora" revision="f3a16f9482bd8d2876e6a4bc5b0d06af4bb2287a" />
+  <project name="meta-asix.git" path="src/meta-mediatek-tsn" remote="rity" />
+</manifest>
